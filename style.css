@@ -1,4 +1,45 @@
-body {background-color:tan;}
-h1{color:green;}
+.title{
+    position: relative;
+    left: 40px;
+}
+body {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main-container{
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+.interest{
+    font-weight: 600;
+    position: relative;
+    left: 100px;
+    width: 350px;
+}
+.principal{
+    margin:5px;
+    position: relative;
+    left :30px;
+  }
+  .rate{
+    margin : 10px;
+    position: relative;
+    left :50px;
+  }
+  .year{
+    margin : 10px;
+  }
+h1{color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span.highlight{
+    background-color: yellow;
+}
 
 
